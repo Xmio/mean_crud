@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1 Cervejaria Be MEAN
+
+  h2 {{ msg }}
+
+  ul
+    li(data-ng-repeat="beer in beers")
+      a(href="/beers/{{beer._id}}") {{beer.name}} - 
+      button(data-ng-click='delete(beer._id)') DELETAR
+
+  a(href="/beers/new") Add new
