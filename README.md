@@ -1,13 +1,21 @@
 #Start Crud Be Mean, WorkShop Suissa
 
 install mongo
+
 install nodejs
+
 npm intall -g express-generation
+
 npm intall -g express
+
 npm intall -g nodemon
+
 npm intall -g http-server
+
 mongod
+
 mongo
+
 nodemon app.js
 
 #Two-way data binding
